@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Онлайн Музей Истории ЛЭТИ</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Главная</a></li>
+        <li><a href="photo.html">Фото</a></li>
+        <li><a href="history.html">История</a></li>
+        <li><a href="about.html">О музее</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Добро пожаловать в Онлайн Музей Истории ЛЭТИ</h1>
+      <p>Узнайте об истории самого лучшего электротехнического вуза России!</p>
+    </section>
+
+    <section id="moment1" class="moment-section">
+      <div class="card-content">
+        <img src="/static/img/main_pg_im_1.jpg" alt="Событие 1">
+        <div>
+          <h3>15 (3) июня 1886</h3>
+          <p>Император Александр III утвердил Временное положение о Техническом 
+            училище Почтово-телеграфного ведомства с трехлетним сроком обучения.
+          </p>
+        </div>
+      </div>
+      <a href="#">Подробнее (нет ссылки)</a>
+    </section>
+
+    <section id="moment2" class="moment-section">
+      <div class="card-content">
+        <img src="/static/img/main_pg_im_2.jpg" alt="Момент 2">
+        <div>
+          <h3>11 (23) июня 1891</h3>
+          <p>Император Александр III подписал указ о преобразовании Технического училища в
+            Электротехнический институт (ЭТИ) с четырехлетним сроком обучения.
+            Учебный план включал 20 дисциплин, из которых 7 – электротехнические.</p>
+        </div>
+      </div>
+      <a href="#">Подробнее (нет ссылки)</a>
+    </section>
+
+    <section id="moment3" class="moment-section">
+      <div class="card-content">
+        <img src="/static/img/main_pg_im_3.jpg" alt="Момент 3">
+        <div>
+          <h3>31 (19) октября 1897</h3>
+          <p>Преподаватель Минного офицерского класса А.С. Попов выступил перед преподавателями и
+            студентами ЭТИ с докладом «О беспроволочной телеграфии», текст которого был издан отдельной брошюрой.</p>
+        </div>
+      </div>
+      <a href="#">Подробнее (нет ссылки)</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Онлайн Музей Истории ЛЭТИ</p>
+  </footer>
+
+    <!--  UNDONE and USEFUL
+  <script>
+    function reveal() {
+        // var reveals = document.querySelectorAll(".appear");
+        var reveals = document.getElementsByClassName("moment-section");
+        for (var i = 0; i < reveals.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = reveals[i].getBoundingClientRect().top;
+          var elementVisible = 150;
+
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      }
+
+      window.addEventListener("scroll", reveal);
+  </script>
+      -->
+</body>
+</html>
