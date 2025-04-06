@@ -8,7 +8,7 @@ body {
   width: 100%;
   height: 100px;
   opacity: 1;
-  position: fixed;
+  position: absolute;
   top: 0px;
   left: 0px;
 }
@@ -105,7 +105,7 @@ footer {
   height: 100px;
   background: rgba(5,51,110,1);
   opacity: 1;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   left: 0px;
 }
@@ -192,4 +192,665 @@ footer {
   border-bottom-right-radius: 20px;
   text-align: center;
   font-size: 18px;
+}
+
+.timeline_back {
+  width: 100%;
+  height: 700px;
+  background: linear-gradient(rgba(255,255,255,1), rgba(187,141,84,1));
+  opacity: 1;
+  position: relative;
+  top: 100px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.History_tab {
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 100px;
+  overflow: hidden;
+  margin: center;
+  white-space: normal;
+}
+.History {
+  width: 204px;
+  color: rgba(30,30,30,1);
+  position: relative;
+  top: 0px;
+  left: 45%;
+  font-family: PT Serif;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  margin: center;
+  overflow: hidden;
+  text-align: center;
+  white-space: normal;
+}
+.His_Text {
+  width: 100%;
+  color: rgba(0,0,0,1);
+  position: relative;
+  top: 70px;
+  left: 0px;
+  font-family: Palatino Linotype;
+  font-weight: Regular;
+  font-size: 26px;
+  opacity: 1;
+  overflow: hidden;
+  text-align: left;
+  white-space: normal;
+}
+.lent_base {
+  width: 100%;
+  height: 172px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 100px;
+  left: 0px;
+  overflow: hidden;
+}
+.lent {
+  width: 300px;
+  color: rgba(0,0,0,1);
+  position: relative;
+  top: 0px;
+  left: 50px;
+  font-family: PT Serif;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+
+.Y_1882 {
+  width: 72px;
+  color: rgba(0,0,0,1);
+  position: relative;
+  top: 0px;
+  left: 50px;
+  font-family: Average Sans;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.Y_1891 {
+  width: 72px;
+  color: rgba(0,0,0,1);
+  position: relative;
+  top: 0px;
+  left: 150px;
+  font-family: Average Sans;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.Y_1899 {
+  width: 72px;
+  color: rgba(0,0,0,1);
+  position: relative;
+  top: 0px;
+  left: 240px;
+  font-family: Average Sans;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.Y_1918 {
+  width: 72px;
+  color: rgba(0,0,0,1);
+  position: relative;
+  top: 0px;
+  left: 360px;
+  font-family: Average Sans;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.Y_1929 {
+  width: 72px;
+  color: rgba(0,0,0,1);
+  position: relative;
+  top: 0px;
+  left: 470px;
+  font-family: Average Sans;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.Y_1941 {
+  width: 72px;
+  color: rgba(0,0,0,1);
+  position: relative;
+  top: 0px;
+  left: 600px;
+  font-family: Average Sans;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.Y_1945 {
+  width: 72px;
+  color: rgba(0,0,0,1);
+  position: relative;
+  top: 0px;
+  left: 670px;
+  font-family: Average Sans;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.Y_1968 {
+  width: 72px;
+  color: rgba(0,0,0,1);
+  position: relative;
+  top: 0px;
+  left: 800px;
+  font-family: Average Sans;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.Y_1992 {
+  width: 72px;
+  color: rgba(0,0,0,1);
+  position: relative;
+  top: 0px;
+  left: 900px;
+  font-family: Average Sans;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+
+.name {
+  width: 1400px;
+  height: 10px;
+  color: #7d7575;
+  opacity: 1;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  background: rgba(0,0,0,1);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.nav {
+  width: 615px;
+  color: rgba(0,0,0,1);
+  position: relative;
+  top: 100px;
+  left: 254px;
+  font-family: PT Serif;
+  font-weight: Regular;
+  font-size: 46px;
+  opacity: 1;
+  text-align: left;
+}
+.nav_left {
+  width: 220px;
+  opacity: 1;
+  position: relative;
+  top: 70px;
+  left: 0px;
+  border: 2px solid rgba(153,153,153,1);
+}
+.nav_right {
+  width: 100%;
+  opacity: 1;
+  position: relative;
+  top: 70px;
+  left: 830px;
+  border: 2px solid rgba(153,153,153,1);
+}
+
+.sections_base {
+  position: relative;
+  top: 100px;
+  left: 0px;
+  width: 100%;
+  height: 1050px;
+}
+
+.l_sec {
+  width: 200px;
+  height: 1050px;
+  background: linear-gradient(rgba(255,255,255,1), rgba(5,51,110,1));
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.r_sec {
+  width: 200px;
+  height: 1050px;
+  background: linear-gradient(rgba(255,255,255,1), rgba(5,51,110,1));
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  overflow: hidden;
+}
+
+.Y_1886-1891 {
+  width: 700px;
+  height: 130px;
+  opacity: 1;
+  position: absolute;
+  top:  50px;
+  left: 210px;
+  border-style: solid;
+  border-color: rgba(0,0,0,1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+
+.Y_1886-1891_img {
+  width: 700px;
+  height: 200px;
+  background: url("/static/images/1886-1891.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.4;
+  position: relative;
+  top: -200px;
+  overflow: hidden;
+}
+
+.Y_1886-1891 p {
+  font-family: Palatino Linotype;
+  font-weight: bold;
+  color: rgba(0,0,0,1);
+  position: relative;
+  font-size: 35px;
+  top: -15px;
+  opacity: 1;
+  text-align: center;
+}
+
+.Y_1891-1899 {
+  width: 700px;
+  height: 130px;
+  opacity: 1;
+  position: absolute;
+  top:  50px;
+  right: 210px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-style: solid;
+  border-color: rgba(0,0,0,1);
+  overflow: hidden;
+}
+
+.Y_1891-1899 p {
+  font-family: Palatino Linotype;
+  font-weight: bold;
+  color: rgba(0,0,0,1);
+  position: relative;
+  font-size: 35px;
+  top: 5px;
+  opacity: 1;
+  text-align: center;
+}
+
+.Y_1891-1899_img {
+  width: 700px;
+  height: 130px;
+  background: url("/static/images/1891-1899.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.4;
+  position: relative;
+  top: -120px;
+  overflow: hidden;
+}
+
+
+.Y_1899-1918 {
+  width: 700px;
+  height: 130px;
+  opacity: 1;
+  position: absolute;
+  top:  220px;
+  left: 210px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-style: solid;
+  border-color: rgba(0,0,0,1);
+  overflow: hidden;
+}
+
+.Y_1899-1918 p {
+  font-family: Palatino Linotype;
+  font-weight: bold;
+  color: rgba(0,0,0,1);
+  position: relative;
+  font-size: 35px;
+  top: -15px;
+  opacity: 1;
+  text-align: center;
+}
+
+.Y_1899-1918_img {
+  width: 700px;
+  height: 130px;
+  background: url("/static/images/1899-1918.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.4;
+  position: relative;
+  top: -170px;
+  overflow: hidden;
+}
+
+.Y_1918-1929 {
+  width: 700px;
+  height: 130px;
+  opacity: 1;
+  position: absolute;
+  top:  220px;
+  right: 210px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-style: solid;
+  border-color: rgba(0,0,0,1);
+  overflow: hidden;
+}
+
+.Y_1918-1929 p {
+  font-family: Palatino Linotype;
+  font-weight: bold;
+  color: rgba(0,0,0,1);
+  position: relative;
+  font-size: 35px;
+  top: -15px;
+  opacity: 1;
+  text-align: center;
+}
+
+.Y_1918-1929_img {
+  width: 700px;
+  height: 130px;
+  background: url("/static/images/1918-1929.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.4;
+  position: relative;
+  top: -170px;
+  overflow: hidden;
+}
+
+.Y_1929-1941 {
+  width: 700px;
+  height: 130px;
+  opacity: 1;
+  position: absolute;
+  top:  400px;
+  left: 210px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-style: solid;
+  border-color: rgba(0,0,0,1);
+  overflow: hidden;
+}
+
+.Y_1929-1941 p {
+  font-family: Palatino Linotype;
+  font-weight: bold;
+  color: rgba(0,0,0,1);
+  position: relative;
+  font-size: 35px;
+  top: -15px;
+  opacity: 1;
+  text-align: center;
+}
+
+.Y_1929-1941_img {
+  width: 700px;
+  height: 200px;
+  background: url("/static/images/1929-1941.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.4;
+  position: relative;
+  top: -165px;
+  overflow: hidden;
+}
+
+.Y_1941-1945 {
+  width: 700px;
+  height: 130px;
+  opacity: 1;
+  position: absolute;
+  top:  400px;
+  right: 210px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-style: solid;
+  border-color: rgba(0,0,0,1);
+  overflow: hidden;
+}
+
+.Y_1941-1945 p {
+  font-family: Palatino Linotype;
+  font-weight: bold;
+  color: rgba(0,0,0,1);
+  position: relative;
+  font-size: 35px;
+  top: -15px;
+  opacity: 1;
+  text-align: center;
+}
+
+.Y_1941-1945_img {
+  width: 700px;
+  height: 130px;
+  background: url("/static/images/1941-1945.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.4;
+  position: relative;
+  top: -160px;
+  overflow: hidden;
+}
+
+.Y_1945-1968 {
+  width: 700px;
+  height: 130px;
+  opacity: 1;
+  position: absolute;
+  top:  590px;
+  left: 210px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-style: solid;
+  border-color: rgba(0,0,0,1);
+  overflow: hidden;
+}
+
+.Y_1945-1968 p {
+  font-family: Palatino Linotype;
+  font-weight: bold;
+  color: rgba(0,0,0,1);
+  position: relative;
+  font-size: 35px;
+  top: -15px;
+  opacity: 1;
+  text-align: center;
+}
+
+.Y_1945-1968_img {
+  width: 700px;
+  height: 200px;
+  background: url("/static/images/1945-1968.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.4;
+  position: relative;
+  top: -165px;
+  overflow: hidden;
+}
+
+.Y_1968-1992 {
+  width: 700px;
+  height: 130px;
+  opacity: 1;
+  position: absolute;
+  top:  590px;
+  right: 210px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-style: solid;
+  border-color: rgba(0,0,0,1);
+  overflow: hidden;
+}
+
+.Y_1968-1992 p {
+  font-family: Palatino Linotype;
+  font-weight: bold;
+  color: rgba(0,0,0,1);
+  position: relative;
+  font-size: 35px;
+  top: -15px;
+  opacity: 1;
+  text-align: center;
+}
+
+.Y_1968-1992_img {
+  width: 700px;
+  height: 200px;
+  background: url("/static/images/1968-1992.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.4;
+  position: relative;
+  top: -165px;
+  overflow: hidden;
+}
+
+.Y_1992 {
+  width: 700px;
+  height: 130px;
+  opacity: 1;
+  position: absolute;
+  top:  780px;
+  left: 210px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-style: solid;
+  border-color: rgba(0,0,0,1);
+  overflow: hidden;
+}
+
+.Y_1992 p {
+  font-family: Palatino Linotype;
+  font-weight: bold;
+  color: rgba(0,0,0,1);
+  position: relative;
+  font-size: 35px;
+  top: -15px;
+  opacity: 1;
+  text-align: center;
+}
+
+.Y_1992_img {
+  width: 700px;
+  height: 200px;
+  background: url("/static/images/1992.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.4;
+  position: relative;
+  top: -165px;
+  overflow: hidden;
+}
+
+.Y_now {
+  width: 700px;
+  height: 130px;
+  opacity: 1;
+  position: absolute;
+  top:  780px;
+  right: 210px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-style: solid;
+  border-color: rgba(0,0,0,1);
+  overflow: hidden;
+}
+
+.Y_now p {
+  font-family: Palatino Linotype;
+  font-weight: bold;
+  color: rgba(0,0,0,1);
+  position: relative;
+  font-size: 35px;
+  top: -15px;
+  opacity: 1;
+  text-align: center;
+}
+
+.Y_now_img {
+  width: 700px;
+  height: 200px;
+  background: url("/static/images/now.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.4;
+  position: relative;
+  top: -165px;
+  overflow: hidden;
 }
