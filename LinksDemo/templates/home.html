@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Average+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Palatino+Linotype&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Piazzolla&display=swap" rel="stylesheet" />
+    <link href="/static/style.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+
+<div class="header">
+  <div class="blue"></div>
+  <div class="logo">
+    <img src="/static/images/logo.png">
+  </div>
+  <div class="menu">
+      <div class="sub_menu_1"></div>
+      <div class="sub_menu_2"></div>
+      <div class="sub_menu_3"></div>
+      <div class="sub_menu_4"></div>
+  </div>
+</div>
+
+<div class="History_tab">
+    <span class="History">История</span>
+    <span class="His_Text">Современное состояние ЛЭТИ как одного из ведущих технических вузов России
+        обусловлено не только прозорливостью его основателей, сумевших ответить на вызов времени подготовкой
+        квалифицированных специалистов, но и последующим развитием вуза как научно-образовательного центра,
+        работающего в самых современных направлениях науки и техники.
+    </span>
+</div>
+
+<div class="lent_base">
+    <div class="buttons">
+        <button class="button_left" onclick="move_right()">
+            <p><</p>
+        </button>
+        <button class="button_right" onclick="move_left()">
+            <p>></p>
+        </button>
+    </div>
+    <span class="lent">Лента времени</span>
+    <div class="name"></div>
+    <span class="Y_1882">1882</span>
+    <span class="Y_1891">1891</span>
+    <span class="Y_1899">1899</span>
+    <span class="Y_1918">1918</span>
+    <span class="Y_1929">1929</span>
+    <span class="Y_1941">1941</span>
+    <span class="Y_1945">1945</span>
+    <span class="Y_1968">1968</span>
+    <span class="Y_1992">1992</span>
+</div>
+
+<div class="timeline_back">
+    <div class="tl_1">
+        <div class="tl_1_img"></div>
+        <h1>16.09.1886</h1>
+        <h2>Техническое училище Почтово-телеграфного ведомства</h2>
+        <p>Первое в России гражданское специализированное электротехническое учебное заведение,
+            которое было призвано «обеспечить телеграфную службу научно-образованными специалистами»</p>
+    </div>
+    <div class="tl_2">
+        <div class="tl_2_img"></div>
+        <h1>31.10.1897</h1>
+        <h2>Выступление А. С. Попова в ЭТИ</h2>
+        <p>Доклад преподавателя Минного офицерского класса “О беспроволочной телеграфии”,
+            текст которого был издан отдельной брошюрой. </p>
+    </div>
+    <div class="tl_3">
+        <div class="tl_3_img"></div>
+        <h1>1908</h1>
+        <h2>«Общество инженер-электриков, окончивших Электротехнический Институт Императора Александра III»</h2>
+        <p>На съездах выпускников стало традицией обсуждать новейшие достижения и открытия в области электротехники,
+            предлагать изменения и дополнения в учебные программы ЭТИ.</p>
+    </div>
+    <div class="tl_4">
+        <div class="tl_4_img"></div>
+        <h1>1926</h1>
+        <h2>Завершено строительство Волховской ГЭС</h2>
+        <p>В воплощении проекта Г. О. Графтио активное участие принимали преподаватели, студенты и выпускники ЛЭТИ.</p>
+    </div>
+    <div class="tl_5">
+        <div class="tl_5_img"></div>
+        <h1>1937</h1>
+        <h2>Высоковольтная лаборатория А. А. Смурова</h2>
+        <p>А.А.Смуровым была создана научная школа по технике высокого напряжения и передаче электрической энергии
+            на дальние расстояния, которая дала стимул развитию новых научных направлений, в частности,
+            изучению свойств диэлектрических материалов.</p>
+    </div>
+    <div class="tl_6">
+        <div class="tl_6_img"></div>
+        <h1>1941</h1>
+        <h2>Политическое управление 09 КБФ (ПУБАЛТ) в стенах ЛЭТИ</h2>
+        <p>Рядом со зданием лаборатории был размещен врытый в землю большой стальной бункер для
+            штаба ПВО ВМФ (командующий – адмирал В.Ф.Трибуц).</p>
+    </div>
+</div>
+
+<span class="nav">Навигация по разделам</span>
+<div class="nav_left"></div>
+<div class="nav_right"></div>
+
+<div class="sections_base">
+    <div class="l_sec"></div>
+    <div class="r_sec"></div>
+
+    <div class="Y_1886-1891">
+        <a href="/templates/1886-1891.html" class="Y_link"><p>Техническое училище Почтово-телеграфного ведомства 1886-1891</p>
+        <div class="Y_1886-1891_img"></div></a>
+    </div>
+    <div class="Y_1891-1899">
+        <a href="/templates/1891-1899.html" class="Y_link"><p>Электротехнический институт 1891-1899</p>
+        <div class="Y_1891-1899_img"></div></a>
+    </div>
+    <div class="Y_1899-1918">
+        <a href="/templates/1899-1918.html" class="Y_link"><p>Электротехнический институт Императора Александра III 1899-1918</p>
+        <div class="Y_1899-1918_img"></div></a>
+    </div>
+    <div class="Y_1918-1929">
+        <a href="/templates/1918-1929.html" class="Y_link"><p>Электротехнический институт имени В. И. Ульянова (Ленина) 1918-1929</p>
+        <div class="Y_1918-1929_img"></div></a>
+    </div>
+    <div class="Y_1929-1941">
+        <a href="/templates/1929-1941.html" class="Y_link"><p>Электротехнический институт имени В. И. Ульянова (Ленина) 1929-1941</p>
+        <div class="Y_1929-1941_img"></div></a>
+    </div>
+    <div class="Y_1941-1945">
+        <a href="/templates/1941-1945.html" class="Y_link"><p>Участие ЛЭТИ в Великой Отечественной войне 1941-1945</p>
+        <div class="Y_1941-1945_img"></div></a>
+    </div>
+    <div class="Y_1945-1968">
+        <a href="/templates/1945-1968.html" class="Y_link"><p>Развитие ЛЭТИ в послевоенные годы 1945-1968</p>
+        <div class="Y_1945-1968_img"></div></a>
+    </div>
+    <div class="Y_1968-1992">
+        <a href="/templates/1968-1992.html" class="Y_link"><p>Ориентация ЛЭТИ на новейшие направления 1968-1992</p>
+        <div class="Y_1968-1992_img"></div></a>
+    </div>
+    <div class="Y_from_1992">
+        <a href="/templates/from_1992.html" class="Y_link"><p>СПбГЭТУ “ЛЭТИ” им. В. И. Ульянова (Ленина) c 1992</p>
+        <div class="Y_from_1992_img"></div></a>
+    </div>
+    <div class="Y_now">
+        <a href="/templates/now.html" class="Y_link"><p>Публикации по истории СПбГЭТУ “ЛЭТИ”</p>
+        <div class="Y_now_img"></div></a>
+    </div>
+</div>
+
+<footer>
+  <span class="cred">© 1995 - 2025 Санкт-Петербургский государственный электротехнический университет
+            «ЛЭТИ» им. В.И. Ульянова (Ленина), СПбГЭТУ «ЛЭТИ»
+  </span>
+  <div class="minob">
+    Минобрнауки
+  </div>
+  <div class="org_about">
+      Сведения об образовательной организации
+  </div>
+  <div class="politics_1">
+      Политика обработки и защиты персональных данных
+  </div>
+  <div class="politics_2">
+      Политика конфеденциальности
+  </div>
+</footer>
+</body>
+<script src="/static/code.js"></script>
+</html>
