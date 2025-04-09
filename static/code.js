@@ -44,7 +44,7 @@ async function move_left() {
     if (!(is_func) && is_left) {
         is_func = true;
         for (let i=0; i<amount; i++) {
-            steps[i] = 1800 * data_arr[i] + data_arr[i] * 50;
+            steps[i] = 1800 * data_arr[i] + 50;
         }
         for (let c=0; c<=17; c++) {
             for (let i=0; i<amount; i++) {
@@ -66,9 +66,9 @@ async function move_right() {
     if (!(is_func) && is_right) {
         is_func = true;
         for (let i=0; i<amount; i++) {
-            steps[i] = 1800 * data_arr[i] + (data_arr[i]) * 50;
+            steps[i] = 1800 * data_arr[i] + 50;
         }
-        for (let c=0; c<=18; c++) {
+        for (let c=0; c<=17; c++) {
             for (let i=0; i<amount; i++) {
                 steps[i] += 100;
                 moments[i].style.left = (steps[i] + 'px');
