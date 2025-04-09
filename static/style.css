@@ -63,7 +63,6 @@ html,body
   position: absolute;
   top: 20px;
   left: 25px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 }
 .sub_menu_1 {
@@ -122,7 +121,7 @@ footer {
   width: 100%;
   color: rgba(255,255,255,1);
   position: absolute;
-  left: 10px;
+  left: 20px;
   top: 70px;
   font-family: Piazzolla;
   font-weight: Regular;
@@ -546,7 +545,7 @@ footer {
 .Y_1886-1891_img {
   width: 700px;
   height: 200px;
-  background: url("/static/images/1886-1891.png");
+  background: url("/static/images_mp/1886-1891.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -595,7 +594,7 @@ footer {
 .Y_1891-1899_img {
   width: 700px;
   height: 130px;
-  background: url("/static/images/1891-1899.png");
+  background: url("/static/images_mp/1891-1899.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -634,7 +633,7 @@ footer {
 .Y_1899-1918_img {
   width: 700px;
   height: 130px;
-  background: url("/static/images/1899-1918.png");
+  background: url("/static/images_mp/1899-1918.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -672,7 +671,7 @@ footer {
 .Y_1918-1929_img {
   width: 700px;
   height: 130px;
-  background: url("/static/images/1918-1929.png");
+  background: url("/static/images_mp/1918-1929.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -710,7 +709,7 @@ footer {
 .Y_1929-1941_img {
   width: 700px;
   height: 200px;
-  background: url("/static/images/1929-1941.png");
+  background: url("/static/images_mp/1929-1941.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -748,7 +747,7 @@ footer {
 .Y_1941-1945_img {
   width: 700px;
   height: 130px;
-  background: url("/static/images/1941-1945.png");
+  background: url("/static/images_mp/1941-1945.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -786,7 +785,7 @@ footer {
 .Y_1945-1968_img {
   width: 700px;
   height: 200px;
-  background: url("/static/images/1945-1968.png");
+  background: url("/static/images_mp/1945-1968.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -824,7 +823,7 @@ footer {
 .Y_1968-1992_img {
   width: 700px;
   height: 200px;
-  background: url("/static/images/1968-1992.png");
+  background: url("/static/images_mp/1968-1992.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -862,7 +861,7 @@ footer {
 .Y_from_1992_img {
   width: 700px;
   height: 200px;
-  background: url("/static/images/1992.png");
+  background: url("/static/images_mp/1992.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -900,7 +899,7 @@ footer {
 .Y_now_img {
   width: 700px;
   height: 200px;
-  background: url("/static/images/now.png");
+  background: url("/static/images_mp/now.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -956,7 +955,7 @@ footer {
 .tl_1_img {
   width: 1200px;
   height: 700px;
-  background: url("/static/images/tl_1.png");
+  background: url("/static/images_mp/tl_1.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1010,7 +1009,7 @@ footer {
 .tl_2_img {
   width: 1200px;
   height: 700px;
-  background: url("/static/images/tl_2.png");
+  background: url("/static/images_mp/tl_2.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1064,7 +1063,7 @@ footer {
 .tl_3_img {
   width: 1200px;
   height: 700px;
-  background: url("/static/images/tl_3.png");
+  background: url("/static/images_mp/tl_3.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1118,7 +1117,7 @@ footer {
 .tl_4_img {
   width: 1200px;
   height: 700px;
-  background: url("/static/images/tl_4.png");
+  background: url("/static/images_mp/tl_4.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1172,7 +1171,7 @@ footer {
 .tl_5_img {
   width: 1200px;
   height: 700px;
-  background: url("/static/images/tl_5.png");
+  background: url("/static/images_mp/tl_5.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1226,7 +1225,7 @@ footer {
 .tl_6_img {
   width: 1200px;
   height: 700px;
-  background: url("/static/images/tl_6.png");
+  background: url("/static/images_mp/tl_6.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1280,7 +1279,7 @@ footer {
 .tl_7_img {
   width: 1200px;
   height: 700px;
-  background: url("/static/images/tl_7.png");
+  background: url("/static/images_mp/tl_7.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1334,7 +1333,7 @@ footer {
 .tl_8_img {
   width: 1200px;
   height: 700px;
-  background: url("/static/images/tl_8.png");
+  background: url("/static/images_mp/tl_8.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1388,7 +1387,7 @@ footer {
 .tl_9_img {
   width: 1200px;
   height: 700px;
-  background: url("/static/images/tl_9.png");
+  background: url("/static/images_mp/tl_9.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
