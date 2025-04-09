@@ -22,30 +22,30 @@ html,body
   top: 0px;
   left: 0px;
 }
-.blue {
-  width: 100%;
-  height: 100px;
-  background: rgba(5,51,110,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-.logo {
-  width: 500px;
-  height: 90px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: relative;
-  top: 5px;
-  margin: auto;
 
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09000000357627869);
+.blue {
+    width: 100%;
+    height: 100px;
+    background: rgba(5,51,110,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
+
+.logo {
+    width: 500px;
+    height: 120px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    margin: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.22);
+}
+
 .logo img{
   width: auto;
   height: 80px;
@@ -121,15 +121,16 @@ footer {
 }
 
 .cred {
-  width: 100%;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 70px;
-  font-family: Piazzolla;
-  font-weight: Regular;
-  font-size: 16px;
-  opacity: 1;
-  text-align: center;
+    width: 100%;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    font-family: Piazzolla;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
 }
 
 .minob {
@@ -202,4 +203,41 @@ footer {
   border-bottom-right-radius: 20px;
   text-align: center;
   font-size: 18px;
+}
+
+.text_block {
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 50px;
+}
+
+.sub_title_text {
+    font-family: PT Serif;
+    font-weight: Regular;
+    font-size: 28px;
+}
+
+.title_text {
+    font-family: PT Serif;
+    font-weight: Regular;
+    font-size: 32px;
+}
+
+.ord_text {
+    font-family: Piazzolla;
+    font-weight: Regular;
+    font-size: 24px;
+}
+
+#tb_1 {
+    top: 150px;
+}
+
+#photos_1 {
+    width: 100%;
+    height: 1440px;
+    position: relative;
+    left: 5%;
+    top: 50px;
 }
