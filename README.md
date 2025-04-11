@@ -27,7 +27,7 @@
 Доступные на данный момент страницы:
    - localhost:7000
    - localhost:7000/about
-   - localhost:7000/
+   - localhost:7000/year-1945-1968/
 
 Прототипы некоторых нереализованных страниц:
 https://www.figma.com/design/PBtH77a3yeWZytpq7y6Afe/Design?node-id=0-1&t=nLWgAerjF1gablD6-1
