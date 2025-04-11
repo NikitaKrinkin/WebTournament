@@ -29,4 +29,5 @@
    - localhost:7000/about
    - localhost:7000/
 
-Прототипы некоторых страниц представлены в виде figma-файла в `/design/design.fig`
+Прототипы некоторых нереализованных страниц:
+https://www.figma.com/design/PBtH77a3yeWZytpq7y6Afe/Design?node-id=0-1&t=nLWgAerjF1gablD6-1
