@@ -18,7 +18,7 @@ html,body
   width: 100%;
   height: 100px;
   opacity: 1;
-  position: fixed;
+  position: relative;
   top: 0px;
   left: 0px;
 }
@@ -205,39 +205,476 @@ footer {
   font-size: 18px;
 }
 
-.text_block {
+.text-block {
     width: 90%;
     position: relative;
     left: 5%;
-    top: 50px;
+    top: 120px;
 }
 
-.sub_title_text {
+.sub-title-text {
     font-family: PT Serif;
     font-weight: Regular;
     font-size: 28px;
 }
 
-.title_text {
+.title-text {
     font-family: PT Serif;
     font-weight: Regular;
     font-size: 32px;
 }
 
-.ord_text {
+.ord-text {
     font-family: Piazzolla;
     font-weight: Regular;
     font-size: 24px;
 }
 
-#tb_1 {
+.cite {
+    font-family: Piazzolla;
+    font-weight: Regular;
+    font-size: 26px;
+}
+
+.photo {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.ph-sz-1 {
+    width: 410px;
+    height: 550px;
+    position: absolute;
+    opacity: 0.9;
+}
+
+.ph-sz-3 {
+    width: 202px;
+    height: 255px;
+    position: absolute;
+    top: -35px;
+    opacity: 1;
+}
+
+.ph-sz-2 {
+    width: 340px;
+    height: 450px;
+    position: absolute;
+    opacity: 0.9;
+}
+
+.ph-sz-4 {
+    width: 300px;
+    height: 435px;
+    position: absolute;
+    opacity: 0.9;
+}
+
+.empty {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: 20px;
+}
+
+
+#tb-1 {
+    position: relative;
+    top: 70px;
+}
+
+#photos-1 {
+    width: 100%;
+    height: 920px;
+    position: relative;
+    top: 50px;
+    left: calc(50% - 960px);
+}
+
+#tb-2 {
+    position: relative;
+    top: 70px;
+}
+
+#VISmirnov {
+    top: 175px;
+    left: 0px;
+    opacity: 0.9;
+    background: url("/static/images_y_1945_1968/VISmirnov.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#NGBoldirev {
+    top: 0px;
+    left: 420px;
+    opacity: 0.9;
+    background: url("/static/images_y_1945_1968/NGBoldirev.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#AGGrammakov {
+    top: 455px;
+    left: 420px;
+    opacity: 0.9;
+    background: url("/static/images_y_1945_1968/AGGrammakov.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#LRNeiman {
+    top: 175px;
+    left: 770px;
+    opacity: 0.9;
+    background: url("/static/images_y_1945_1968/LRNeiman.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#AVBerendeev {
+    top: 0px;
+    left: 1190px;
+    opacity: 0.9;
+    background: url("/static/images_y_1945_1968/AVBerendeev.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#PNMathhanov {
+    top: 455px;
+    left: 1190px;
+    opacity: 0.9;
+    background: url("/static/images_y_1945_1968/PNMathhanov.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#KIKrilov {
+    top: 175px;
+    left: 1540px;
+    opacity: 0.9;
+    background: url("/static/images_y_1945_1968/KIKrilov.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#hor-line-box {
+    width: 90%;
+    height: 70px;
+    position: relative;
+    top: 50px;
+    left: 5%;
+}
+
+#hor-line {
+    width: 10px;
+    height: 80px;
+    position: absolute;
+    margin: auto;
+    left: -2%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #BB8D54;
+}
+
+#tb-2-5 {
+    position: relative;
+    top: 70px;
+}
+
+#blue-photos {
+    width: 100%;
+    height: 800px;
+    background: #05336E;
+    position: relative;
+    top: 100px;
+}
+
+#bl-ph-st {
+    position: absolute;
+    top: 5px;
+    left: 5%;
+    color: white;
+}
+
+#bl-ph-block-1 {
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    left: 5%;
+}
+
+#bl-ph-block-1-photos {
+    width: 45%;
+    height: 700px;
+    position: absolute;
+    left: -3%;
+    top: 80px;
+
+}
+
+#bl-ph-block-1-text {
+    width: 49%;
+    position: absolute;
+    left: 45%;
+    top: 20px;
+    color: white;
+}
+
+#tb-3 {
+    width: 65%;
+    position: relative;
+    top: 90px;
+}
+
+
+#EAPopova-Kiandskaya {
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 110%;
+    top: 20px;
+    opacity: 0.9;
+    background: url("/static/images_y_1945_1968/EAPopova-Kiandskaya.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#EGKiandskaya {
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    top: 335px;
+    left: 110%;;
+    opacity: 0.9;
+    background: url("/static/images_y_1945_1968/EGKiandskaya.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#tb-5 {
+    width: 50%;
+}
+
+#tb-5-img {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 110%;
+    top: -30px;
+    opacity: 0.9;
+    background: url("/static/images_y_1945_1968/tb-5-img.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#photo-lent {
+    width: 100%;
+    height: 185px;
+    position: relative;
+    top: 140px;
+    background: #05336E;
+}
+
+#NPBogoroditskiy {
+    left: 60px;
+    background: url("/static/images_y_1945_1968/NPBogoroditskiy.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#KASamojnikov {
+    left: 260px;
+    background: url("/static/images_y_1945_1968/KASamojnikov.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#EKAleksandrov {
+    left: 460px;
+    background: url("/static/images_y_1945_1968/EKAleksandrov.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#VOVyazemski {
+    left: 660px;
+    background: url("/static/images_y_1945_1968/VOVyazemski.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#OGVendrik {
+    left: 860px;
+    background: url("/static/images_y_1945_1968/OGVendrik.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#VISmirnov-oth {
+    left: 1060px;
+    background: url("/static/images_y_1945_1968/VISmirnov-oth.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#OBLyrie {
+    left: 1260px;
+    background: url("/static/images_y_1945_1968/OBLyrie.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#VIVinokurov {
+    left: 1460px;
+    background: url("/static/images_y_1945_1968/VIVinokurov.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#IRFreydzone {
+    left: 1660px;
+    background: url("/static/images_y_1945_1968/IRFreydzone.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+#tb-7 {
+    position: relative;
     top: 150px;
 }
 
-#photos_1 {
-    width: 100%;
-    height: 1440px;
+#tb-8 {
+    width: 80%;
+}
+
+#hor-line-2 {
+    width: 10px;
+    height: 120px;
+    position: absolute;
+    margin: auto;
+    left: -2%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #BB8D54;
+}
+
+#medal-img {
+    width: 160px;
+    height: 220px;
+    position: absolute;
+    left: 100%;
+    top: -40px;
+    background: url("/static/images_y_1945_1968/medal-img.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+#tb-9 {
     position: relative;
-    left: 5%;
-    top: 50px;
+    top: 180px;
+}
+
+#tb-10 {
+    position: relative;
+    top: 70px;
+}
+
+#tb-10 {
+    width: 60%;
+    position: relative;
+    top: 170px;
+}
+
+#tb-10-img {
+    position: absolute;
+    width: 520px;
+    height: 340px;
+    left: 105%;
+    top: -10px;
+    opacity: 0.9;
+    background: url("/static/images_y_1945_1968/tb-10-img.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#tb-11 {
+    position: relative;
+    top: 170px;
+}
+
+#hor-line-3 {
+    width: 10px;
+    height: 160px;
+    position: absolute;
+    margin: auto;
+    left: -2%;
+    top: 535px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #BB8D54;
+}
+
+#tb-12 {
+    width: 60%;
+    position: relative;
+    top: 230px;
+}
+
+#tb-12-letu-img-1 {
+    position: absolute;
+    width: 520px;
+    height: 460px;
+    left: 105%;
+    top: -10px;
+    opacity: 0.9;
+    background: url("/static/images_y_1945_1968/tb-12-letu-img-1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#tb-12-letu-img-2 {
+    position: absolute;
+    width: 520px;
+    height: 460px;
+    left: 105%;
+    top: 450px;
+    opacity: 0.9;
+    background: url("/static/images_y_1945_1968/tb-12-letu-img-2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
